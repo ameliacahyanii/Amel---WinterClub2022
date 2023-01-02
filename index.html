@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelsss - Travel Agency </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo">Travelsss <i class="fas thin fa-plane"></i></a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#destination">Destination</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#footer">Contact Us</a>
+        </nav>
+        <a href="signup.html" class="btn">Sign Up</a>
+    </section>
+    <section class="home" id="home">
+        <div class="content">
+            <span>Let Us Make Your Trip</span>
+            <h3>Become A Travel Dream</h3>
+            <p>It will definitely be more perfect if you make your journey experience more enjoyable. We are very happy, can be a part of you</p>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+    <section class="book-form" id="book-form">
+        <form action="">
+            <div class="inputBox">
+                <span>Where would you like to go?</span>
+                <input type="text" placeholder="Place name" value="">
+            </div>
+            <div class="inputBox">
+                <span>When it will start?</span>
+                <input type="date" placeholder="" value="">
+            </div>
+            <div class="inputBox">
+                <span>How many person></span>
+                <input type="number" placeholder="Number of travelers" value="">
+            </div>
+            <input type="submit" value="Find now" class="btn">
+        </form>
+    </section>
+    <section class="about" id="about">
+        <div class="video-container">
+            <video src="img/about-vid-1.mp4" muted autoplay loop class="video"></video>
+            <div class="controls">
+                <span class="control-btn" src="img/about-vid-1.mp4"></span>
+                <span class="control-btn" src="img/about-vid-2.mp4"></span>
+                <span class="control-btn" src="img/about-vid-3.mp4"></span>
+            </div>
+        </div>
+        <div class="content">
+            <span>Why choose us?</span>
+            <h3>Moment Must Be Made With The Best Version</h3>
+            <p>Travelsss was launched in 2022 with the vission of making tourist or visitors can trip easily, comfortably, and enjoy every moment. </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+    <section class="destination" id="destination">
+        <div class="heading">
+            <span>Our Destinations</span>
+            <h1>Make yours destination</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Machu Picchu</h3>
+                    <p>Peru, Latin America</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Grand Canal</h3>
+                    <p>Venesia, Italy</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pura Ulun Danu Bratan</h3>
+                    <p>Bali, Indonesia</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-4.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sydney Opera House</h3>
+                    <p>Sydney, Australia</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-5.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>The Pragser Wildsee</h3>
+                    <p>South Tyrol, Italy</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-6.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Great Wall Of China</h3>
+                    <p>Tiongkok, China</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-7.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Saint Malo</h3>
+                    <p>France</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="img/des-8.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Jeju Island</h3>
+                    <p>Jeju City, South Korea</p>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Our Services</span>
+            <h1>Countless Experiences</h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-globe"></i>
+                <h3>Worldwide</h3>
+                <p>Destinations in different parts of the world</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-tag"></i>
+                <h3>A Lot Of Discount</h3>
+                <p>Lots of discount opportunity in every trip</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-wallet"></i>
+                <h3>Affordable Price</h3>
+                <p>There are a special prices</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Food & Drinks</h3>
+                <p>There are variety of recommendations for the best foods and drinks</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>Affordable Hotels</h3>
+                <p>Has many comfortable hotel recommendations</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Have 24/7 service to serve users if the need help</p>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="heading">
+            <span>Our Gallery</span>
+            <h1>We Record The Memories</h1>
+        </div>
+
+        <div class="box-container">
+            <div class="box" data="zoom-in-up" data-delay="150">
+                <img src="img/gallery-img-1.png">
+                <span>Travel Spot</span>
+                <h3>Iceland</h3>
+            </div>
+            <div class="box" data="zoom-in-up" data-delay="300">
+                <img src="img/gallery-img-2.png">
+                <span>Travel Spot</span>
+                <h3>Greenland</h3>
+            </div>
+            <div class="box" data="zoom-in-up" data-delay="450">
+                <img src="img/gallery-img-3.png">
+                <span>Travel Spot</span>
+                <h3>Alaska</h3>
+            </div>
+            <div class="box" data="zoom-in-up" data-delay="150">
+                <img src="img/gallery-img-4.png">
+                <span>Travel Spot</span>
+                <h3>Indonesia</h3>
+            </div>
+            <div class="box" data="zoom-in-up" data-delay="300">
+                <img src="img/gallery-img-5.png">
+                <span>Travel Spot</span>
+                <h3>Vietnam</h3>
+            </div>
+            <div class="box" data="zoom-in-up" data-delay="450">
+                <img src="img/gallery-img-6.png">
+                <span>Travel Spot</span>
+                <h3>France</h3>
+            </div>
+            <div class="box" data="zoom-in-up" data-delay="150">
+                <img src="img/gallery-img-7.png">
+                <span>Travel Spot</span>
+                <h3>Singapore</h3>
+            </div>
+            <div class="box" data="zoom-in-up" data-delay="300">
+                <img src="img/gallery-img-8.png">
+                <span>Travel Spot</span>
+                <h3>Japan</h3>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="content" data="fade-right" data-delay="300">
+            <span>Testimonials</span>
+            <h3>Feedback From Our Clients</h3>
+            <p>This feedback helps our website grow. Thank you to the clients who have sent us feedback.</p>
+        </div>
+        <div class="box-container" data="fade-left" data-delay="600">
+            <div class="box">
+                <p>This website makes it easy for me to travel with my family. Thank you so much for providing the best service.</p>
+                <div class="user">
+                    <img src="img/pic-1.png" alt="">
+                    <div class="info">
+                        <h3>Thalia Carla</h3>
+                        <span>Designer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>I am very helpful with this website because it has a vacation inspiration feature. Thank you for helping me.</p>
+                <div class="user">
+                    <img src="img/pic-2.png" alt="">
+                    <div class="info">
+                        <h3>Kelly Shern</h3>
+                        <span>Programmer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>I am very comfortable using this website because it does not confuse me in booking a hotel for a vacation, thank you</p>
+                <div class="user">
+                    <img src="img/pic-3.png" alt="">
+                    <div class="info">
+                        <h3>John Ran</h3>
+                        <span>Programmer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p>This website has complete and interesting features, making it easier for me to plan a vacation, thank you very much</p>
+                <div class="user">
+                    <img src="img/pic-4.png" alt="">
+                    <div class="info">
+                        <h3>Wil Harl</h3>
+                        <span>Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="banner">
+        <div class="content" data="zoom-in-up" data-delay="300">
+            <span>Start Your Trip</span>
+            <h3>Let's Explore The World</h3>
+            <p>Make your best moment in evey trip, that moment will recorded and become a beautiful memory and experience. Feel free to create a beautifull memories, because the opportunity does not come twice.</p>
+            <a href="#book-form" class="btn">Book Now</a>
+        </div>
+    </div>
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box" data="fade-up" data-delay="150">
+                <a href="#" class="logo"><i class="fas thin fa-plane"></i> Travelsss</a>
+                <p>Travelsss is a website to help the tourist and visitors can plan a vacation easily and comfortably.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="#about" class="links"><i class="fas fa-arrow-right"></i>About</a>
+                <a href="#destination" class="links"><i class="fas fa-arrow-right"></i>Destination</a>
+                <a href="#services" class="links"><i class="fas fa-arrow-right"></i>Services</a>
+                <a href="#gallery" class="links"><i class="fas fa-arrow-right"></i>Gallery</a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map"></i> Jakarta, Indonesia</p>
+                <p><i class="fas fa-phone"></i> 021-166-188</p>
+                <p><i class="fas fa-envelope"></i> travelesss@gmail.com</p>
+                <p><i class="fas fa-clock"></i> 07.00am - 15.00pm</p>
+            </div>
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Enter your email" class="email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
